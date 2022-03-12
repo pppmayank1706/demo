@@ -35,7 +35,7 @@ public class DatabaseConfig extends AbstractCloudConfig {
      * {@link AbstractCloudConfig}, part of the Spring Cloud plugin, is used for
      * this.
      */
-	//
+	//git_changes
 	Logger cloudFoundryDataSourceConfigLogger = LoggerFactory.getLogger(this.getClass());
 	
 	@Value("${vcap.services.postgresql.credentials.user}")
